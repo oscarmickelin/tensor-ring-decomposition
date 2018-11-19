@@ -1,4 +1,7 @@
 # tensor-ring-decomposition
+
+Code accompanying the paper https://arxiv.org/abs/1807.02513
+
 README:
 =======
 
