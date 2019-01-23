@@ -41,7 +41,7 @@ CP2TRcheckall.m
   - comverts canonical decomposition into TR-format with low storage cost after
     an exhaustive search
 
-CP2TRcheckall.m
+CP2TRcheckallfaster.m
   - comverts canonical decomposition into TR-format with low storage cost after
     an exhaustive search. Computations sped up by rounding subsystems.
 
