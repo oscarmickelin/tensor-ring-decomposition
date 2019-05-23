@@ -1,6 +1,6 @@
 function tr = CP2TRfaster(V, r0, prec)
 %%% Transforms a canonical decomposition into TR-format with first index
-%%% r0. V is a cell array containing matrices of dimension nk x r. r0 must
+%%% r0. V is a cell array of dimension d \times 1 containing matrices of dimension nk x r. r0 must
 %%% be a divisor of r.
 %%% Performs rounding on subsystems to speed up runtime.
 

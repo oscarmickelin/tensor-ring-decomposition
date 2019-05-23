@@ -1,7 +1,7 @@
 function res = CP2TRcheckallfaster(V, n, maxn, prec)
 %%% Transforms a canonical decomposition into TR-format with first index
 %%% resulting in lowest storage cost.
-%%% V is a cell array containing matrices of dimension nk x r.
+%%% V is a cell array of dimension d \times 1 containing matrices of dimension nk x r.
 %%% Performs rounding on subsystems to speed up runtime.
 
 [d, ~] = size(V);

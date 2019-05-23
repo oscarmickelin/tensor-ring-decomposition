@@ -1,7 +1,7 @@
 function res = CP2TRcheckall(V, n, maxn, prec)
 %%% Transforms a canonical decomposition into TR-format with first index
 %%% resulting in lowest storage cost.
-%%% V is a cell array containing matrices of dimension nk x r.
+%%% V is a cell array of dimension d \times 1 containing matrices of dimension nk x r.
 
 [d, ~] = size(V);
 best_cost = Inf;
