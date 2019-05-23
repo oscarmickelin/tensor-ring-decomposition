@@ -1,9 +1,10 @@
 function tr = CP2TR(V, r0)
 %%% Transforms a canonical decomposition into TR-format with first index
-%%% r0. V is a cell array containing matrices of dimension nk x r. r0 must
+%%% r0. V is a cell array of dimension d \times 1 containing matrices of dimension nk x r. r0 must
 %%% be a divisor of r.
 
 [d, ~] = size(V);
+
 tr = cell(d,1);
 
 V1 = V{1};
@@ -23,5 +24,6 @@ end
 
 Vd = V{d};
 [nd, r] = size(Vd);
-tr{d} = reshape(reshape(Vd', [nd*r, 1]), [r, n1, 1]);
+
+tr{d} = reshape(reshape(Vd', [nd*r, 1]), [r, nd, 1]);
 tr = TT2TR(tr, r0);
