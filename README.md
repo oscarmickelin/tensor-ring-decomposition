@@ -1,6 +1,6 @@
 # tensor-ring-decomposition
 
-Code accompanying the paper "On algorithms for and computing with the tensor ring decomposition", Numerical Linear Algebra with Applications 27.3 (2020): e2289.
+Code accompanying the paper "On algorithms for and computing with the tensor ring decomposition", Numerical Linear Algebra with Applications 27.3 (2020): e2289. If you find the code useful, please consider citing the paper.
 
 Arxiv version available at: https://arxiv.org/abs/1807.02513
 
